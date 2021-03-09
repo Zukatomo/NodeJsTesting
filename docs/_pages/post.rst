@@ -32,3 +32,9 @@ A POST használatával egy bejelentkezett felhasznaló képes uj eseményt hozz�
 
 .. note::
     Az ``id`` megadásával paraméterben, egy általunk megadott azonositóval fog az adatbázisba kerülni.
+
+
+.. toctree::
+    :maxdepth: 1
+ 
+    index
