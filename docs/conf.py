@@ -29,7 +29,10 @@ author = 'Gall Janos'
 # ones.
 import sphinx_rtd_theme
 extensions = [
-    "sphinx_rtd_theme"
+    "sphinx_rtd_theme",
+    'sphinx_code_tabs',
+    'sphinxcontrib.httpdomain',
+    'sphinx_tabs.tabs'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -18,4 +18,5 @@ NodeJS REST API tesztelése mocha és chai frameworkkal!
    :caption: API végpontok:
    :maxdepth: 1
 
-   _pages/apiendpoints
+   _pages/get
+   _pages/post
