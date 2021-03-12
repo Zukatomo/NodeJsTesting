@@ -1,5 +1,5 @@
 POST methódus
-##############
+==============
 
 A POST használatával egy bejelentkezett felhasznaló képes uj eseményt hozzáadni.
 

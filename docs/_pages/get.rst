@@ -1,5 +1,5 @@
 GET request
-############
+==============
 
 A GET segítségével eseményeket lehet lekérdezni, különbőző paraméterek szerint,
 illetve a bejelentkezés is ezt a protokollt használja.
@@ -126,7 +126,7 @@ illetve a bejelentkezés is ezt a protokollt használja.
          * **_order** (*string*) -- A rendezés iránya, növekvő ``asc``, csökkenő ``desc``.
 
 Authentikáció
-##############
+===============
 
     A POST mehtódusok csak egy bejelentkezett felhasználó számára
     engedélyezetettek.
