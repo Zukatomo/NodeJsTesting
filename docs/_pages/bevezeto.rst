@@ -5,7 +5,7 @@ keretrendszerek segítségével javascriptben, `NodeJS <https://nodejs.org/en/>`
 futtatókörnyezetben.
 
 REST API
-------------
+#########
 A REST egy szoftverarchitektúra típus, elosztott kapcsolat (loose coupling), nagy, internet alapú rendszerek számára, amilyen például a világháló.[`1 <https://hu.wikipedia.org/wiki/REST>`__]
 
 
@@ -19,7 +19,7 @@ hiszen, nem függnek szorosan egymástól.
 
 
 Szoftvertesztelés
------------------
+##################
 A szoftvertesztelés a szoftverminőség-biztosítás és így a szoftverfejlesztés részét képezi. A tesztelés egy rendszer vagy program kontrollált körülmények melletti futtatása, és az eredmények kiértékelése. A hagyományos megközelítés szerint a tesztelés célja az, hogy a fejlesztés során létrejövő hibákat minél korábban felfedezze, és ezzel csökkentse azok kijavításának költségeit.[`3 <https://hu.wikipedia.org/wiki/Szoftvertesztel%C3%A9s>`__]
 
 .. toctree::

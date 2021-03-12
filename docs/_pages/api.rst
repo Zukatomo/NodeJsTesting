@@ -11,7 +11,7 @@ futtatókörnyezetet használtam, amely a Google által fejlesztett
 `V8 javascript engin <https://v8.dev/>`__-t használja a javascript futtatására.
 
 NodeJS
-------
+#######
 
 A Node.js egy szoftverrendszer, melyet skálázható internetes alkalmazások, mégpedig webszerverek készítésére hoztak létre.[`4 <https://hu.wikipedia.org/wiki/Node.js>`__]
 Nagy előnye, hogy a beérkező kérések aszinkron modon hajtódnak végre, igy
@@ -19,7 +19,7 @@ rengeteg, konkurens kérésre képes választani, anélkül, hogy a felhasznál�
 bármiféle telyesítmény visszaeszét tapasztalánának.
 
 JSON-server
------------
+############
 
 A `JSON Server <https://www.npmjs.com/package/json-server>`__ 
 egy hamis REST API szerver amely renkivűl gyorsan üzembehelyezhető.
@@ -36,7 +36,7 @@ beléptetni őket és egy kulcsot küld nekik sütiken keresztűl amely segíts�
 eldőnti a késöbbiekben, hogy az adott kérés milyen felhasználotól érkezett.
 
 YUP
----
+####
 A szerver egyik legfontosabb feladata, a felhasználóktól beérkező
 adatok ellenőrzése, ezt egy `YUP <https://www.npmjs.com/package/yup?activeTab=readme>`__ 
 nevű `NPM <https://www.npmjs.com/>`__ csomag használatával valósitottam meg.
@@ -74,7 +74,7 @@ A fenti kódrészlet igazat térit vissza abban az esetben, ha a bemeneti
 az :literal:`\ \ eventSchema`-ban definiáltunk.
 
 Authentikáció
-----------------
+################
 
 Az API authentikáció sütiken keresztűl valósúl meg
 a felhasználó elküldi az emailcimét és a jelszavát
