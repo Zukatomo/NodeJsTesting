@@ -47,6 +47,19 @@ lekérdezzük az összes eventet. A következő részben pedig ellenőrizzük, h
 a szerver által szolgáltatott adatok helyes :literal:`\ \ status` kóddal térnek vissza,
 ez jelen esetben a :literal:`\ \ 200`. Illetve, hogy a viszatéritett egy tömb, amelynek 1000 eleme van.
 
+**Hibátlan lefutás**:
+    .. image:: ../images/1.png
+        :width: 600
+
+**Hibás lefutás**:
+    .. image:: ../images/2.png
+        :width: 600
+
+Hibás legutás esetén megfigyelhető, hogy megjelenik, melyik teszt eset a hibás illetve,
+hogy mi volt az elvárt érték, és milyen értéket kapott a szervertől.
+
+
+
 
 
 .. toctree::
