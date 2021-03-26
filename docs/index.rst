@@ -21,3 +21,10 @@ NodeJS REST API tesztelése mocha és chai frameworkkal!
 
    _pages/get
    _pages/post
+
+.. toctree::
+   :caption: Tesztelés:
+   :maxdepth: 1
+
+   _pages/testing
+   _pages/test
