@@ -29,6 +29,23 @@ Ebben a tesztesetben megpróbáljuk lekérdezni az összes létező eseményt a 
             })
         })
 
+A fenti kódrészletben a :literal:`\ \ describe` kulcsszó segitségével
+definiálunk egy teszt blockot, amely első paraméterként a teszteset leirását
+kapja, majd második paraméternek egy lambda függvényt amely tartamazhat egy
+kokrét tesztesetet vagy további definiálásokat is.
+
+Megfigyelhető, hogy a fenti kód az authentikáció nélküli lekérdezéseket viszgálja,
+ezen belűl is az összes event lekérdezését.
+Az :literal:`\ \ it` kulcsszó használatával definiálunk egy konkrét tesztet amely
+szintén két paraméterrel rendelkezik, az első leirja, hogy mi kellene történjen a teszt során,
+a második egy lambda függvény amely paraméterül egy függvényt kap, ezt a függvény kell
+meghivni abban az esetben ha a tesztek jól futnak le.
+
+Az API szerverről való lekérdezés :literal:`\ \ chai.request(server)` segitségével
+hajtható végre. A kódban megfigyelhető, hogy egy :literal:`\ \ GET` methódus használatával
+lekérdezzük az összes eventet. A következő részben pedig ellenőrizzük, hogy
+a szerver által szolgáltatott adatok helyes :literal:`\ \ status` kóddal térnek vissza,
+ez jelen esetben a :literal:`\ \ 200`. Illetve, hogy a viszatéritett egy tömb, amelynek 1000 eleme van.
 
 
 
