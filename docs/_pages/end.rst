@@ -1,5 +1,5 @@
-Tesztelés
-============
+Következtetés
+===============
 
 A Mocha és a Chai használata rendkívül megkönnyíti a hibák
 azonosítását. Ugyanakkor könnyedén és gyorsan használhatóak,
