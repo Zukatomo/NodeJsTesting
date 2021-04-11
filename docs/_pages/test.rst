@@ -6,3 +6,5 @@ Tesztelés
  
     index
     testget
+    testauth
+    testfull
