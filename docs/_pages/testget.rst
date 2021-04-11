@@ -1,9 +1,10 @@
-Get methódus tesztelése
+Get metódus tesztelése
 -------------------------
 
-Ebben a részben bemutatom, az általam irt REST API GET metódusainak a tesztelését.
-Ezen metódusok segitségével lehet adatokat lekérdezni a szerverről,  különbőző
-paraméterek segitségével.
+Ebben a részben bemutatom, az általam írt REST API GET metódusainak a tesztelését.
+Ezen metódusok segítségével lehet adatokat lekérdezni a szerverről,  különböző
+paraméterek segítségével.
+
 
 GET all
 ~~~~~~~~~~~~
@@ -29,23 +30,26 @@ Ebben a tesztesetben megpróbáljuk lekérdezni az összes létező eseményt a 
             })
         })
 
-A fenti kódrészletben a :literal:`\ \ describe` kulcsszó segitségével
-definiálunk egy teszt blockot, amely első paraméterként a teszteset leirását
-kapja, majd második paraméternek egy lambda függvényt amely tartamazhat egy
-kokrét tesztesetet vagy további definiálásokat is.
+A fenti kód részletben a :literal:`\ \ describe` kulcsszó segítségével
+definiálunk egy teszt blokkot, amely első paraméterként a teszteset leirását
+kapja, majd második paraméternek egy lambda függvényt amely tartalmazhat egy
+konkrét tesztesetet vagy további definiálásokat is.
+        
 
-Megfigyelhető, hogy a fenti kód az authentikáció nélküli lekérdezéseket viszgálja,
-ezen belűl is az összes event lekérdezését.
+Megfigyelhető, hogy a fenti kód az autentikáció nélküli lekérdezéseket vizsgálja,
+ezen belül is az összes event lekérdezését.
 Az :literal:`\ \ it` kulcsszó használatával definiálunk egy konkrét tesztet amely
-szintén két paraméterrel rendelkezik, az első leirja, hogy mi kellene történjen a teszt során,
+szintén két paraméterrel rendelkezik, az első leírja, hogy mi kellene történjen a teszt során,
 a második egy lambda függvény amely paraméterül egy függvényt kap, ezt a függvény kell
-meghivni abban az esetben ha a tesztek jól futnak le.
+meghívni abban az esetben ha a tesztek jól futnak le.
 
-Az API szerverről való lekérdezés :literal:`\ \ chai.request(server)` segitségével
-hajtható végre. A kódban megfigyelhető, hogy egy :literal:`\ \ GET` methódus használatával
-lekérdezzük az összes eventet. A következő részben pedig ellenőrizzük, hogy
+
+Az API szerverről való lekérdezés :literal:`\ \ chai.request(server)` segítségével
+hajtható végre. A kódban megfigyelhető, hogy egy :literal:`\ \ GET` metódus használatával
+lekérdezzük az összes eseményt. A következő részben pedig ellenőrizzük, hogy
 a szerver által szolgáltatott adatok helyes :literal:`\ \ status` kóddal térnek vissza,
-ez jelen esetben a :literal:`\ \ 200`. Illetve, hogy a viszatéritett egy tömb, amelynek 1000 eleme van.
+ez jelen esetben a :literal:`\ \ 200`. Illetve, hogy a visszatérít egy tömb, amelynek 1000 eleme van.
+
 
 **Hibátlan lefutás**:
     .. figure:: ../images/1.png
@@ -57,7 +61,7 @@ ez jelen esetben a :literal:`\ \ 200`. Illetve, hogy a viszatéritett egy tömb,
     .. image:: ../images/2.png
         :width: 600
 
-Hibás legutás esetén megfigyelhető, hogy megjelenik, melyik teszt eset a hibás illetve,
+Hibás legutás esetén megfigyelhető, hogy megjelenik, melyik teszteset a hibás illetve,
 hogy mi volt az elvárt érték, és milyen értéket kapott a szervertől.
 
 GET by name
@@ -102,8 +106,9 @@ elemét és megnézi, hogy tartalmazza-e a megfelelő szót.
 GET sorted by name
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-A következő részben azt tesztelem, hogy az API képes-e a visszatéritendő
-adatokat rendezve visszadni.
+A következő részben azt tesztelem, hogy az API képes-e a visszatérítendő
+adatokat rendezve visszaadni.
+
 
 **Példa kód**:
 
@@ -124,7 +129,7 @@ adatokat rendezve visszadni.
             })
         })
 
-A fenti kódrészlet lekérdezi az adatokat ellenőrzni, majd megnézni,
+A fenti kódrészlet lekérdezi az adatokat ellenőrizni, majd megnézni,
 hogy név szerint rendezve vannak-e.
 
 **Hibátlan lefutás**:

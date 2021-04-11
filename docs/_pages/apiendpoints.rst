@@ -1,8 +1,9 @@
 A REST API szerver kétféle HTTP kérést támogat.
-A GET és a POST methodusokat.
+A GET és a POST metódusokat.
 
 
-A POST használatával egy bejelentkezett felhasznaló képes uj eseményt hozzáadni.
+A POST használatával egy bejelentkezett felhasználó képes új eseményt hozzáadni.
+
 
 
 

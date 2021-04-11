@@ -1,12 +1,13 @@
 GET request
 ==============
 
-A GET segítségével eseményeket lehet lekérdezni, különbőző paraméterek szerint,
+A GET segítségével eseményeket lehet lekérdezni, különböző paraméterek szerint,
 illetve a bejelentkezés is ezt a protokollt használja.
+
 
 .. http:get:: /events/
 
-        Visszatériít egyetlen egy eseményt a megadott azonosító szerint.
+        Visszatérít egyetlen egy eseményt a megadott azonosító szerint.
 
         **Példa lekérdezés**:
 
@@ -128,14 +129,14 @@ illetve a bejelentkezés is ezt a protokollt használja.
 Authentikáció
 ===============
 
-    A POST mehtódusok csak egy bejelentkezett felhasználó számára
-    engedélyezetettek.
+    A POST metódusok  csak egy bejelentkezett felhasználó számára
+    engedélyezettek.
 
-    A bejelentkezés során a felhasználónak el kell küldeni az emailcimét és a jelszavát.
+    A bejelentkezés során a felhasználónak el kell küldeni az email címét és a jelszavát.
 
 .. http:get:: /login
 
-    Sikeres bejelentkezés esetén visszatériít egy azonositó kulcsot, sütikben.
+    Sikeres bejelentkezés esetén visszatérít egy azonosító kulcsot, sütikben.
 
     **Példa lekérdezés**:
 

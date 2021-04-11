@@ -1,12 +1,12 @@
 POST methódus
 ==============
 
-A POST használatával egy bejelentkezett felhasznaló képes uj eseményt hozzáadni.
+A POST használatával egy bejelentkezett felhasználó képes új eseményt hozzáadni.
 
 
 .. http:post:: /events/
 
-    Beszur egy új eseményt a következő szabad azonosító számmal.
+    Beszúr egy új eseményt a következő szabad azonosító számmal.
 
     **Példa lekérdezés**:
 
@@ -31,7 +31,7 @@ A POST használatával egy bejelentkezett felhasznaló képes uj eseményt hozz�
     Ahol ``data`` egy esemény tipus.
 
 .. note::
-    Az ``id`` megadásával paraméterben, egy általunk megadott azonositóval fog az adatbázisba kerülni.
+    Az ``id`` megadásával paraméterben, egy általunk megadott azonosítóval fog az adatbázisba kerülni.
 
 
 .. toctree::

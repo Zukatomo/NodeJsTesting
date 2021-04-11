@@ -1,8 +1,9 @@
 Teljes működés tesztelése
 -----------------------------
 
-A következő részben a rendszer mőködését fogom tesztelni,
+A következő részben a rendszer működését fogom tesztelni,
 hogy az adatbázis változásoknak is megfelelően fog-e válaszolni.
+
 
 **Példa kód**:
 
@@ -120,8 +121,9 @@ hogy az adatbázis változásoknak is megfelelően fog-e válaszolni.
             })
         })
 
-A fenti tesztsorozat beszurásokat végez és ellenörzi, hogy ezek valóban
+A fenti tesztsorozat beszúrásokat végez és ellenőrzi, hogy ezek valóban
 megtörténtek-e vagy sem.
+        
 
 **Lefutás eredménye**:
     .. figure:: ../images/9.png

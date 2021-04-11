@@ -7,16 +7,17 @@ futtatókörnyezetben.
 REST API
 ==========
 
-A REST egy szoftverarchitektúra típus, elosztott kapcsolat (loose coupling), nagy, internet alapú rendszerek számára, amilyen például a világháló.[`1 <https://hu.wikipedia.org/wiki/REST>`__]
+A REST egy szoftver architektúra típus, elosztott kapcsolat (loose coupling), nagy, internet alapú rendszerek számára, amilyen például a világháló.[`1 <https://hu.wikipedia.org/wiki/REST>`__]
 
 
-Az API (Application Programming Interface) definiciók és protokollok csoportja
-amelyek segítségével épitünk egy alkalmazást. Általában ugy hivatkoznak rá mint
+Az API (Application Programming Interface) definíciók és protokollok csoportja
+amelyek segítségével építünk egy alkalmazást. Általában úgy hivatkoznak rá mint
 egy szerződésre ami az információ szolgáltató és a fogyasztó között van. [`2 <https://www.redhat.com/en/topics/api/what-is-a-rest-api>`__]
-Az API egy előre leszögezett mondon biztositja, a szolgáltóhoz küldött kérések formátumát
-és az általa visszaküldött válaszok tipusát. Ennek ismerete nagyban megkönnyiti a fejlesztök
+Az API egy előre leszögezett módon biztosítja, a szolgáltóhoz küldött kérések formátumát
+és az általa visszaküldött válaszok típusát. Ennek ismerete nagyban megkönnyíti a fejlesztők
 dolgát, hiszen a két rendszert amelyet az api köt össze, párhuzamosan is lehet fejleszteni
 hiszen, nem függnek szorosan egymástól.
+
 
 
 Szoftvertesztelés

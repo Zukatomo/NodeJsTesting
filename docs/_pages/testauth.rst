@@ -1,4 +1,4 @@
-Authentikáció tesztelése
+Autentikáció tesztelése
 -----------------------------
 
 Ebben a részben a felhasználó bejelentkezését fogom tesztelni,
@@ -7,9 +7,10 @@ illetve a hozzáadást az esemény listához.
 GET Login
 ~~~~~~~~~~~~
 
-A bejelentkezéshez, a felhasználónak el kell küldenie az email cimét és
+A bejelentkezéshez, a felhasználónak el kell küldenie az email címét és
 a jelszavát. Majd ha ezek helyesek akkor a szerver egy sütiben visszaküldi
-a tokent. A késöbbiekben ezzel a tokennel tudja igazolni a hitelességét.
+a tokent. A későbbiekben ezzel a tokennel tudja igazolni a hitelességét.
+
 
 **Példa kód**:
 
@@ -52,8 +53,9 @@ Helytelen bejelentkezés esetén pedig :literal:`\ \ 401` es státusz kódot.
 Esemény beszurása
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-A következő részben egy uj esemény beszurását fogom tesztelni, amire csak
+A következő részben egy új esemény beszúrását fogom tesztelni, amire csak
 bejelentkezett felhasználónak van joga.
+
 
 **Példa kód**:
 
@@ -106,8 +108,9 @@ bejelentkezett felhasználónak van joga.
             })
         })
 
-A fenti kódrészlet több tesztet hajt végre egymás után amelyekben megbróbál
-beszurni egy uj eseményt, rossz/jó felhasználó és adat párossal.
+A fenti kódrészlet több tesztet hajt végre egymás után amelyekben megpróbál
+beszúrni egy új eseményt, rossz/jó felhasználó és adat párossal.
+        
 
 **Lefutás eredménye**:
     .. figure:: ../images/8.png
