@@ -14,7 +14,7 @@ futtatókörnyezetet használtam, amely a Google által fejlesztett
 NodeJS
 =======
 
-A Node.js egy szoftver rendszer, melyet skálázható internetes alkalmazások, mégpedig webszerverek készítésére hoztak létre.[`4 <https://hu.wikipedia.org/wiki/Node.js>`__]
+A Node.js egy szoftver rendszer, melyet skálázható internetes alkalmazások, mégpedig webszerverek készítésére hoztak létre[`4 <https://hu.wikipedia.org/wiki/Node.js>`__].
 Nagy előnye, hogy a beérkező kérések aszinkron modon hajtódnak végre, igy
 rengeteg, konkurens kérésre képes választani, anélkül, hogy a felhasználók
 bármiféle teljesítmény visszaesését tapasztalatának.
@@ -79,7 +79,7 @@ A fenti kódrészlet igazat térit vissza abban az esetben, ha a bemeneti
 :literal:`\ \ eventObj` obijektum telyesít mindent feltételt amelyet
 az :literal:`\ \ eventSchema`-ban definiáltunk.
 
-Authentikáció
+Autentikáció
 ===============
 
 Az API autentikáció sütiken keresztül valósul meg

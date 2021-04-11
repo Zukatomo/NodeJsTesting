@@ -126,7 +126,7 @@ illetve a bejelentkezés is ezt a protokollt használja.
          * **_sort** (*string*) -- Rendezés egy atributum szerint.
          * **_order** (*string*) -- A rendezés iránya, növekvő ``asc``, csökkenő ``desc``.
 
-Authentikáció
+Autentikáció
 ===============
 
     A POST metódusok  csak egy bejelentkezett felhasználó számára
